@@ -49,7 +49,7 @@ defmodule Graphvix.Mixfile do
       {:credo, "~> 1.6", only: [:dev, :test], runtime: false},
       {:ex_doc, "~> 0.27", only: [:dev, :test], runtime: false},
       {:mix_test_watch, "~> 1.0", only: [:dev, :test], runtime: false},
-      {:stream_data, "~> 0.5", only: [:dev, :test]}
+      # {:stream_data, "~> 0.5", only: [:dev, :test]}
     ]
   end
 end
